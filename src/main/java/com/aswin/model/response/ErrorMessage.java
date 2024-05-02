@@ -1,4 +1,4 @@
-package com.ram.model.response;
+package com.aswin.model.response;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.ram.exception;
+package com.aswin.exception;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
-import com.ram.model.response.ErrorMessage;
+import com.aswin.model.response.ErrorMessage;
 
 @ControllerAdvice
 public class AppExceptionHandler

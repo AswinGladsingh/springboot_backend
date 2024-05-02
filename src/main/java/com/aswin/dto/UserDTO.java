@@ -1,4 +1,4 @@
-package com.ram.dto;
+package com.aswin.dto;
 
 import java.io.Serializable;
 

@@ -1,10 +1,10 @@
-package com.ram.service;
+package com.aswin.service;
 
 import java.util.List;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-import com.ram.dto.UserDTO;
+import com.aswin.dto.UserDTO;
 
 public interface UserService extends UserDetailsService
 {

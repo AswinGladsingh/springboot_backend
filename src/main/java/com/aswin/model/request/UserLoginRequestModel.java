@@ -1,4 +1,4 @@
-package com.ram.model.request;
+package com.aswin.model.request;
 
 public class UserLoginRequestModel
 {

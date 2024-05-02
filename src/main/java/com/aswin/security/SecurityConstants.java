@@ -1,6 +1,6 @@
-package com.ram.security;
+package com.aswin.security;
 
-import com.ram.SpringApplicationContext;
+import com.aswin.SpringApplicationContext;
 
 public class SecurityConstants
 {

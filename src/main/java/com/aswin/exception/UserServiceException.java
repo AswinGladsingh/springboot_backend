@@ -1,4 +1,4 @@
-package com.ram.exception;
+package com.aswin.exception;
 
 public class UserServiceException extends RuntimeException
 {

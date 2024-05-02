@@ -1,4 +1,4 @@
-package com.ram.security;
+package com.aswin.security;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -17,10 +17,10 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ram.SpringApplicationContext;
-import com.ram.dto.UserDTO;
-import com.ram.model.request.UserLoginRequestModel;
-import com.ram.service.UserService;
+import com.aswin.SpringApplicationContext;
+import com.aswin.dto.UserDTO;
+import com.aswin.model.request.UserLoginRequestModel;
+import com.aswin.service.UserService;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

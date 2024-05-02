@@ -1,4 +1,4 @@
-package com.ram.model.ui;
+package com.aswin.model.ui;
 
 public class UserRest
 {

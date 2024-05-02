@@ -1,4 +1,4 @@
-package com.ram.service.impl;
+package com.aswin.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,13 +14,14 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.ram.dto.UserDTO;
-import com.ram.entity.UserEntity;
-import com.ram.exception.UserServiceException;
-import com.ram.repository.UserRepository;
-import com.ram.service.UserService;
-import com.ram.utils.ErrorMessages;
-import com.ram.utils.Utils;
+import com.aswin.dto.UserDTO;
+import com.aswin.entity.UserEntity;
+import com.aswin.exception.UserServiceException;
+import com.aswin.repository.UserRepository;
+import com.aswin.service.UserService;
+import com.aswin.utils.ErrorMessages;
+import com.aswin.service.impl.UserServiceImpl;
+import com.aswin.utils.Utils;
 
 @Service
 public class UserServiceImpl implements UserService

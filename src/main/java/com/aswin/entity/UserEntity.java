@@ -1,4 +1,4 @@
-package com.ram.entity;
+package com.aswin.entity;
 
 import java.io.Serializable;
 

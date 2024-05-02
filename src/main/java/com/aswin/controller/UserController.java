@@ -1,5 +1,4 @@
-package com.ram.controller;
-
+package com.aswin.controller;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,15 +15,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ram.dto.UserDTO;
-import com.ram.exception.UserServiceException;
-import com.ram.model.request.UserDetailsRequestModel;
-import com.ram.model.response.OperationStatusModel;
-import com.ram.model.ui.UserRest;
-import com.ram.service.UserService;
-import com.ram.utils.ErrorMessages;
-import com.ram.utils.RequestOperationName;
-import com.ram.utils.RequestOperationResult;
+import com.aswin.dto.UserDTO;
+import com.aswin.exception.UserServiceException;
+import com.aswin.model.request.UserDetailsRequestModel;
+import com.aswin.model.response.OperationStatusModel;
+import com.aswin.model.ui.UserRest;
+import com.aswin.service.UserService;
+import com.aswin.utils.ErrorMessages;
+import com.aswin.utils.RequestOperationName;
+import com.aswin.utils.RequestOperationResult;
 
 @RestController
 @RequestMapping("users")
